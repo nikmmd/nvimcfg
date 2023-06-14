@@ -12,6 +12,8 @@ M.treesitter = {
     "c",
     "markdown",
     "markdown_inline",
+    "terraform",
+    "python",
   },
   indent = {
     enable = true,
@@ -37,6 +39,12 @@ M.mason = {
     -- c/cpp stuff
     "clangd",
     "clang-format",
+
+    -- terraform
+    "terraform-ls",
+
+    --python
+    "pyright"
   },
 }
 
